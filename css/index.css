@@ -310,6 +310,10 @@ p {
   font-size: 14px;
 }
 
+.closing-p {
+  margin: 35px 0;
+}
+
 /*------------------------*/
 
 footer {
