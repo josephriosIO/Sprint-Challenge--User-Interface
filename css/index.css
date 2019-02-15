@@ -161,6 +161,8 @@ header a:hover {
   margin: 0 auto;
 }
 
+/* CSS animation */
+
 @keyframes slidein {
   from {
     margin-left: 100%;
@@ -172,6 +174,43 @@ header a:hover {
     width: 100%;
   }
 }
+
+/*-------------------*/
+
+/*media query */
+
+@media only screen and (max-width: 800px) {
+  header .nav {
+    background-color: #cccccc;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
+  header .header-img {
+    display: none;
+  }
+
+  .top-content {
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .middle-content .boxes {
+    width: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .middle-content .boxes .gone {
+    display: none;
+  }
+}
+
+/*------------------*/
 
 /* header */
 
