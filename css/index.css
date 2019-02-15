@@ -278,6 +278,17 @@ p {
   padding-right: 0;
 }
 
+/* about page */
+.about-text {
+  border-bottom: 1px dotted black;
+  padding-bottom: 15px;
+  margin: 25px 10px;
+}
+
+.about-content {
+  border: 1px solid red;
+}
+
 footer {
   width: 100%;
   background: black;
