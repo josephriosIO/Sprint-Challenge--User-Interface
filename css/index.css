@@ -156,6 +156,19 @@ p {
   width: 800px;
   margin: 0 auto;
 }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 42%;
+    width: 100%;
+  }
+}
+
 /* header */
 
 .nav {
@@ -341,6 +354,11 @@ p {
   border-bottom: 1px dotted black;
   padding-bottom: 20px;
   margin-bottom: 30px;
+}
+
+.contact-form-header h2 {
+  animation-name: slidein;
+  animation-duration: 3s;
 }
 
 input[type="text"],
