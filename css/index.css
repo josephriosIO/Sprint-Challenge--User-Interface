@@ -162,10 +162,11 @@ p {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .nav img {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .nav a {
@@ -280,8 +281,9 @@ p {
 
 /* about page */
 .about-text {
-  border-bottom: 1px dotted black;
-  padding-bottom: 15px;
+  border-bottom: 2px dotted black;
+  padding-left: 11px;
+  padding-bottom: 25px;
   margin: 25px 10px;
 }
 
@@ -297,6 +299,10 @@ p {
   border-bottom: 1px dotted black;
 }
 
+.about-content .last-box {
+  border-bottom: 2px dotted black;
+}
+
 .about-content .about-box img {
   padding-bottom: 15px;
 }
@@ -305,7 +311,7 @@ p {
   margin: 30px 0 0 5px;
   height: 35px;
   width: 120px;
-  border-radius: 5px;
+  border-radius: 8px;
   border: 2px solid black;
   font-size: 14px;
 }
