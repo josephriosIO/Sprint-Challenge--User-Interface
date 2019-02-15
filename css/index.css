@@ -332,7 +332,15 @@ p {
 
 .contact-form {
   display: flex;
-  border: 2px solid red;
+}
+
+.contact-form-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px dotted black;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 input[type="text"],
@@ -351,7 +359,7 @@ textarea {
 .contact-form .message-box textarea {
   margin-left: 25px;
   height: 100px;
-  width: 300px;
+  width: 700px;
 }
 
 input[type="submit"] {
@@ -366,6 +374,40 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #191919;
 }
+.contact-form .names-contact {
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-form .names-contact label {
+  margin-top: 20px;
+}
+
+.contact-form .email-country-contact {
+  margin-left: 35px;
+  width: 700px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-form .email-country-contact label {
+  margin-top: 20px;
+}
+
+.contact-form .message-box {
+  display: flex;
+}
+
+.contact-form .message-box label {
+  margin-top: 40px;
+}
+
+.contact-form .contact-button {
+  margin-left: 50%;
+  margin-bottom: 30px;
+}
+
 /*------------------------*/
 
 footer {
