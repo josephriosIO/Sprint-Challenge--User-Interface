@@ -157,6 +157,7 @@ p {
   margin: 0 auto;
 }
 /* header */
+
 .nav {
   padding: 10px 0;
   display: flex;
@@ -323,7 +324,48 @@ p {
 /*------------------------*/
 
 /* contact page */
+.contact-header {
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 2px dotted black;
+}
 
+.contact-form {
+  display: flex;
+  border: 2px solid red;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 25%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contact-form .message-box textarea {
+  margin-left: 25px;
+  height: 100px;
+  width: 300px;
+}
+
+input[type="submit"] {
+  background-color: #000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #191919;
+}
 /*------------------------*/
 
 footer {
